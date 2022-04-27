@@ -1,11 +1,15 @@
-.selsct-css {
-    max-width: 200px;
+header {
+    background-color: #2E3239;
 }
 
-.container {
-    margin: 90px 0;
+.pizza__heading {
+    color: #fff;
 }
 
-.bread-size-heading {
-    margin: 40px 0;
+.pizza__right {
+    height: 680px;
+}
+
+.form-btn {
+    background-color: #5C5470;
 }

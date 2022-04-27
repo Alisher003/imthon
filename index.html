@@ -11,18 +11,75 @@
 <body>
     <!-- HEADER -->
     <header>
-        <div class="container">
-            <h3>Noni qanday bolsin?</h3>
-            <form  class="form">
-             <select class="selsct-css form-select" aria-label="Default select example">
-             </select>
+            <div class="container-xxl container-fluid">
 
-             <!-- BREAD SIZE -->
-             <h2 class="bread-size-heading">Kattaligi</h2>
+              <div class="pizza__inner">
+                <h2 class="pizza__heading text-center py-5 m-0 mb-3">
+                  Form pizza
+                </h2>
 
-            </form>
-        </div>
+                <div class="pizza__main row justify-content-around ">
+                  <form class="all-form col-11 col-md-10 col-lg-7 col-xl-5" id="form" >
+                    <div class="form__select-box p-4 mb-4 bg-light">
+                      <label class="fw-bold mb-2 fs-5" for="form-select">
+                        Noni qanday bo'lsin?
+                      </label>
+                      <select class="form__select js-select form-select" name="type_bread" id="form-select"></select>
+                    </div>
+
+                    <fieldset class="form__radios-box form-radios p-4 mb-4
+                    bg-light">
+                      <legend class="fw-bold mb-4 fs-5">Kattaligi</legend>
+                    </fieldset>
+
+                    <fieldset class="form__checks-box p-4 mb-4 bg-light">
+                      <legend class="fw-bold mb-2 fs-5">Ustiga nima solaylik</legend>
+                      <ul class="form-checkboxes list-unstyled d-flex flex-wrap flex-column flex-sm-row"></ul>
+                    </fieldset>
+
+                    <fieldset class="form__checks-box p-4 mb-4 bg-light">
+                      <legend class="fw-bold mb-2 fs-5">Qo'shimchalar</legend>
+                      <ul class="form-checkboxes-extra list-unstyled d-flex flex-wrap  flex-column flex-sm-row"></ul>
+                    </fieldset>
+                  </form>
+
+                  <div class="pizza__right col-11 col-md-10 col-lg-4 p-4 bg-light">
+                    <div class="result w-100 mb-4">
+                      <p class="result__bread fw-bold p-3">
+                        Non:
+                        <span class="bread-type fw-normal text-success"></span>
+                      </p>
+
+                      <p class="result__size fw-bold p-3">
+                        Kattaligi:
+                        <span class="pizza-size fw-normal text-success"></span>
+                      </p>
+
+                      <div class="result__top mb-3">
+                        <p class="result__top-text fw-bold p-3 pb-1 m-0">Ustida:</p>
+                        <ul class="result-list result__top-list text-success"></ul>
+                      </div>
+
+                      <div class="result__extra">
+                        <p class="result__extra-text fw-bold p-3 pb-1 m-0">Qo'shimcha:</p>
+                        <ul class="result__extra-list text-success"></ul>
+                      </div>
+                    </div>
+
+                    <button class="form-btn" type="submit">Buyurtma berish</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
     </header>
+
+
+
+
+
+
 
     <!-- MAIN -->
     <main></main>
